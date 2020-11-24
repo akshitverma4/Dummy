@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoxIt.ChooseTheme">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/appBar"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="#FFA903"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:fontFamily="sans-serif"
+            android:text="Choose Your Theme"
+            android:textColor="#2B2B2B"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/back_choose_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_action_navigation_arrow_back_inverted"
+            app:tint="#000000" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar">
+
+        <TextView
+            android:id="@+id/textView167"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose sd's first theme!"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView176"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We'll include 5 toys, 4 bags of treats, and 2 chews tailored to sd's preferences."
+            android:textAlignment="center"
+            android:textColor="#303030" />
+
+        <ImageView
+            android:id="@+id/homeAloneImg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/home_alone" />
+
+        <TextView
+            android:id="@+id/homeAlone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Home Alone" />
+
+        <ImageView
+            android:id="@+id/dogsGivingImg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/dogs_giving" />
+
+        <TextView
+            android:id="@+id/dogsGiving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dogs Giving" />
+
+        <ImageView
+            android:id="@+id/surpriseMeImg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/surpise_me" />
+
+        <TextView
+            android:id="@+id/surpriseMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Surprise me!" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

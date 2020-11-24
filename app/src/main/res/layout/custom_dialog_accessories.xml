@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Accessories"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn_chains"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/filter_tab"
+            android:text="Chains"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <Button
+            android:id="@+id/btn_belts"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/filter_tab"
+            android:text="Belts"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <Button
+            android:id="@+id/btn_collars"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_tab"
+            android:text="Collars"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <Button
+            android:id="@+id/btn_cages"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/filter_tab"
+            android:text="Cages"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn_muzzles"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/filter_tab"
+            android:text="Muzzles"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <Button
+            android:id="@+id/btn_bowls"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/filter_tab"
+            android:text="Bowls"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    </LinearLayout>
+
+</LinearLayout>

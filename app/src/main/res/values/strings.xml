@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Dummy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+
+    <string name="menu_home">Home</string>
+    <string name="step_of">step %1$d of %2$d</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="be_a_provider"><u>Register as Provider?</u></string>
+
+    <string name="Continue">Continue</string>
+    <string name="get_code_via_call">Get code via call</string>
+
+    <string name="aboutus">Stuffy care is made possible by our selection of veterinarians and other highly qualified pet experts which gives you all services that your dog needs.
+    Stuffy Care is Hyderabad-based Organization that is created to make pet parenting simpler. It is a platform where Pet owners can manager
+        there pet\'s need including Food , accessories , Grooming and vaccination in single click. . We understands that with commitments
+        at work, time out with friends and family, full time attention to our pets are usually not a possibility monthly foods ,
+        vaccines, supplement to your door step. So whether you are having late nights at work, out on a holiday or simply need a break
+        and need pet sitting, in home boarding, daycare,sitting, walking or even pet grooming.
+    </string>
+    <string name="ourvision">Whether you need a pet walker for the day or pet boarding for a month, or need food for his/ her daily  needs, or need a shampoo and an
+        expert to take him for a bath ,there\'s a Stuffy care  who\'s the perfect match for your pets, and your lifestyle.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_choose_plan">ChoosePlan</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

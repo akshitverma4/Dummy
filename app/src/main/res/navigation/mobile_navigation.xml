@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.Dummy.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/shop_now"
+        android:name="com.example.Dummy.ui.shop_now.ShopNow"
+        android:label="Shop Now"
+        tools:layout="@layout/activity_shop_now_home"/>
+
+    <fragment
+        android:id="@+id/nav_chat_with_experts"
+        android:name="com.example.Dummy.ui.chat_with_experts.ChatWithExperts"
+        android:label="Chat With Experts"
+        tools:layout="@layout/chat_with_experts_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_appointments"
+        android:name="com.example.Dummy.ui.appointments.Appointments"
+        android:label="Appointments"
+        tools:layout="@layout/appointments_fragment" />
+
+    <fragment
+        android:id="@+id/help"
+        android:name="com.example.Dummy.ui.help.Help"
+        android:label="Help Center"
+        tools:layout="@layout/help_fragment" />
+
+    <fragment
+        android:id="@+id/nav_book_a_service"
+        android:name="com.example.Dummy.ui.book_service.BookService"
+        android:label="Test Booking"
+        tools:layout="@layout/book_service_fragment" />
+
+    <fragment
+        android:id="@+id/nav_loyalty_rewards"
+        android:name="com.example.Dummy.ui.loyalty_rewards.LoyaltyRewards"
+        android:label="Loyalty Rewards"
+        tools:layout="@layout/loyalty_rewards_fragment" />
+
+    <fragment
+        android:id="@+id/nav_reminder"
+        android:name="com.example.Dummy.ui.reminder.Reminder"
+        android:label="Reminder"
+        tools:layout="@layout/reminder_fragment" />
+    <fragment
+        android:id="@+id/nav_wishlist"
+        android:name="com.example.Dummy.ui.wishlist.Wishlist"
+        android:label="Wishlist"
+        tools:layout="@layout/wish_list" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.Dummy.ui.orders.Orders"
+        android:label="Orders"
+        tools:layout="@layout/orders_fragment" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.Dummy.ui.settings.Settings"
+        android:label="Settings"
+        tools:layout="@layout/settings_fragment" />
+
+
+</navigation>

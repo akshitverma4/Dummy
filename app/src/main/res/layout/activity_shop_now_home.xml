@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.shop_now.ShopNow">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/searchViewLayout"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:background="#FFA903"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="Shop Now"
+            android:textColor="#2B2B2B"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/cart_home"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:tint="#CE000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_basket" />
+
+        <TextView
+            android:id="@+id/cart_item_count"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/cart_home"
+            app:layout_constraintEnd_toEndOf="@+id/cart_home"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFD79C"
+        android:clickable="true"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchViewLayout">
+
+        <TextView
+            android:id="@+id/searchViewHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/search_tab"
+            android:drawableLeft="?android:attr/actionModeWebSearchDrawable"
+            android:padding="7dp"
+            android:text="Search for products, accessories and more"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="horizontal"
+                android:paddingBottom="3dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="24dp"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="4dp"
+                    android:background="#00FFFFFF"
+                    android:scaleType="fitCenter"
+                    android:tint="#000000"
+                    app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Location"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider26"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/textVp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="All items available here"
+                android:textColor="#434343"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Food, Accessories and more"
+                android:textColor="#434343"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView_food"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/icons_1" />
+
+                        <ImageView
+                            android:id="@+id/imageView_treats"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/icons_2" />
+
+                        <ImageView
+                            android:id="@+id/imageView_supplements"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginEnd="3dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/icons_3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingLeft="60dp"
+                        android:paddingRight="60dp">
+
+                        <ImageView
+                            android:id="@+id/imageView_grooming"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/icons_5" />
+
+                        <ImageView
+                            android:id="@+id/imageView_accessories"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@drawable/icons_4" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/otp_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Flat 20% OFF for first users"
+                android:textColor="#434343"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Use Coupon code FIRST20"
+                android:textColor="#434343"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/view_pager2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/SliderDots2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_pager2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="@+id/view_pager2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/reg_as_pro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Bestselling affordable pet food"
+                android:textColor="#434343"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Up to 30% off + Free Delivery over ₹499"
+                android:textColor="#434343"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="5dp">
+
+                <ImageView
+                    android:id="@+id/to_shopNowMain"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:foreground="@drawable/image_fg"
+                    android:paddingBottom="2dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/shop_now" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/description_view">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E1E1E1"
+                    android:padding="5dp"
+                    android:text="Best Sellers"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="#171717" />
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/xyz4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/xyz5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/dog_food" />
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView11"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/dog_food3" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView15"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/dog_food2" />
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView21"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/dog_food2" />
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:scaleType="centerInside"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/imageView14"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/dog_food" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

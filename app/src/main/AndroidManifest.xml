@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.Dummy">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.MEDIA_CONTENT_CONTROL"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Dummy.register.RegisterPageProvider6"></activity>
+        <activity android:name="com.example.Dummy.register.RegisterPageProvider5" />
+        <activity android:name="com.example.Dummy.register.RegisterPageProvider4" />
+        <activity android:name="com.example.Dummy.register.RegisterPageProvider3" />
+        <activity android:name="com.example.Dummy.register.RegisterPageProvider2" />
+        <activity android:name="com.example.Dummy.register.RegisterPageProvider1" />
+        <activity android:name="com.example.Dummy.BoxIt.BoxSummary" />
+        <activity android:name="com.example.Dummy.BoxIt.BoxSummary2" />
+        <activity android:name="com.example.Dummy.BoxIt.ChooseTheme" />
+        <activity android:name="com.example.Dummy.BoxIt.ChoosePlan" />
+        <activity android:name="com.example.Dummy.register.LoginOrRegisterPage" />
+        <activity android:name="com.example.Dummy.register.RegisterPage4" />
+        <activity
+            android:name="com.example.Dummy.register.RegisterPage3"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.example.Dummy.register.RegisterPage2"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="com.example.Dummy.register.RegisterPage1" />
+        <activity
+            android:name="com.example.Dummy.register.Login"
+            android:noHistory="true" />
+        <activity
+            android:name="com.example.Dummy.splash.SplashScreens"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.Dummy.Register" />
+        <activity
+            android:name="com.example.Dummy.ShopNowHome"
+            android:label="ShopNow" />
+        <activity
+            android:name="com.example.Dummy.ShopNowMain"
+            android:label="ShopNow"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.Dummy.ProductDetails"
+            android:label="ShopNow"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.Dummy.DrawerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name="com.example.Dummy.ShopNowResult" />
+        <activity android:name="com.example.Dummy.SelectAddress" />
+        <activity android:name="com.example.Dummy.PaymentMethods" />
+        <activity android:name="com.example.Dummy.Payments.CardPayment" />
+        <activity android:name="com.example.Dummy.Payments.UPIPayment" />
+        <activity android:name="com.example.Dummy.OrderDetails" />
+        <activity android:name="com.example.Dummy.WriteReview" />
+        <activity android:name="com.example.Dummy.ui.appointments.BookedServiceDetails" />
+        <activity android:name="com.example.Dummy.ui.appointments.BookedAppointmentDetails" />
+        <activity android:name="com.example.Dummy.ui.book_service.BookServiceViewAll" />
+        <activity android:name="com.example.Dummy.ui.book_service.ProviderDetails" />
+        <activity android:name="com.example.Dummy.ui.book_service.BookForm1" />
+        <activity android:name="com.example.Dummy.ui.book_service.BookForm2" />
+        <activity android:name="com.example.Dummy.AddNewPet" />
+        <activity android:name="com.example.Dummy.MyPets" />
+        <activity android:name="com.example.Dummy.EditPet" />
+        <activity android:name="com.example.Dummy.ui.settings.NotiSettings" />
+        <activity android:name="com.example.Dummy.Filters" />
+        <activity android:name="com.example.Dummy.MyProfile" />
+        <activity android:name="com.example.Dummy.AccountSettings" />
+        <activity android:name="com.example.Dummy.ui.orders.OrdersActivity" />
+        <activity android:name="com.example.Dummy.ui.chat_with_experts.AppointmentForm" />
+        <activity android:name="com.example.Dummy.ui.chat_with_experts.AppointmentSummary" />
+        <activity
+            android:name="com.example.Dummy.SearchViewShop"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name="com.example.Dummy.SearchViewProviders"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name="com.example.Dummy.Cart" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

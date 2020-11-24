@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/health_treats" />
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Make sd even happier!"
+        android:textAlignment="center"
+        android:textColor="#1C1C1C"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView191"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Add an extra, premium toy to your dog's BarkBox for just $7 per month (save over 30% off the retail price)."
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_yes3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/buy_button"
+        android:text="Yes, Please!"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_no3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/add_to_cart_button"
+        android:text="No, Thank You."
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
