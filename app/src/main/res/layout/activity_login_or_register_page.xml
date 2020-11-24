@@ -4,52 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFA500"
+    android:background="@drawable/bg_main"
     tools:context=".register.LoginOrRegisterPage">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/antic"
+        android:text="Stuffy Care"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@id/activity_linear_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <LinearLayout
-        android:id="@+id/linearLayout11"
+        android:id="@+id/activity_linear_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+
         <Button
             android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="6dp"
-            android:layout_weight="1"
-            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_1"
+            android:elevation="10dp"
             android:fontFamily="@font/open_sans_semibold"
             android:onClick="goToSignInPage"
-            android:padding="8dp"
             android:text="Sign In"
-            android:textColor="#FFA500" />
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:layout_marginStart="6dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginBottom="6dp"
-            android:layout_weight="1"
-            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_button_2"
+            android:elevation="10dp"
             android:fontFamily="@font/open_sans_semibold"
             android:onClick="goToregisterPage1"
-            android:padding="8dp"
             android:text="Register"
-            android:textColor="#FFA500" />
+            android:textColor="#f12711" />
+
     </LinearLayout>
+
 
     <TextView
         android:id="@+id/textView44"
@@ -60,8 +72,7 @@
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/reg_as_pro"
@@ -74,13 +85,21 @@
         android:paddingTop="8dp"
         android:text="@string/be_a_provider"
         android:textAlignment="center"
-        android:textColor="#fff"
-        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+        app:layout_constraintStart_toStartOf="parent" />
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:text="@string/by_joining_you_agree_to_our_terms_of_service"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

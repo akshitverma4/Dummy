@@ -9,6 +9,7 @@ import android.os.Handler;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -46,6 +47,9 @@ public class SplashScreens extends AppCompatActivity {
 //        splashImage1.setAnimation(topAnim);
 //        logo.setAnimation(bottomAnim);
 //        slogan.setAnimation(bottomAnim);
+
+
+
 
         new Handler().postDelayed(new Runnable() {
             @Override
