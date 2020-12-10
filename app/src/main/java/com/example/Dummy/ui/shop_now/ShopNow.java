@@ -88,7 +88,7 @@ public class ShopNow extends Fragment {
             }
         });
 
-        ImageView food = view.findViewById(R.id.imageView_food);
+        /*ImageView food = view.findViewById(R.id.imageView_food);
         ImageView treats = view.findViewById(R.id.imageView_treats);
         ImageView supplements = view.findViewById(R.id.imageView_supplements);
         ImageView grooming = view.findViewById(R.id.imageView_grooming);
@@ -128,7 +128,7 @@ public class ShopNow extends Fragment {
                 Intent intent = new Intent(view.getContext(), ShopNowResult.class);
                 startActivity(intent);
             }
-        });
+        });*/
         return view;
 
     }

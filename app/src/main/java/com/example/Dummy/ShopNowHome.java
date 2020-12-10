@@ -60,13 +60,13 @@ public class ShopNowHome extends AppCompatActivity {
             }
         });
 
-        ImageView food = findViewById(R.id.imageView_food);
-        ImageView treats = findViewById(R.id.imageView_treats);
-        ImageView supplements = findViewById(R.id.imageView_supplements);
-        ImageView grooming = findViewById(R.id.imageView_grooming);
-        ImageView accessories = findViewById(R.id.imageView_accessories);
+        //ImageView food = findViewById(R.id.imageView_food);
+        //ImageView treats = findViewById(R.id.imageView_treats);
+        //ImageView supplements = findViewById(R.id.imageView_supplements);
+        //ImageView grooming = findViewById(R.id.imageView_grooming);
+        //ImageView accessories = findViewById(R.id.imageView_accessories);
 
-        food.setOnClickListener(new View.OnClickListener() {
+        /*food.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), ShopNowResult.class);
@@ -100,7 +100,7 @@ public class ShopNowHome extends AppCompatActivity {
                 Intent intent = new Intent(view.getContext(), ShopNowResult.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         ImageButton cart = findViewById(R.id.cart_home);
         cart.setOnClickListener(new View.OnClickListener() {

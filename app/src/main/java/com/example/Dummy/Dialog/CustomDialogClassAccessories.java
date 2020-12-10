@@ -16,7 +16,7 @@ public class CustomDialogClassAccessories extends Dialog implements
     public Activity c;
     public Dialog d;
     public Button yes, no;
-    public  Button button ;
+    //public  Button button ;
     public CustomDialogClassAccessories(Activity a) {
         super(a);
         // TODO Auto-generated constructor stub
